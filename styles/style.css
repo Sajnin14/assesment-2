@@ -20,6 +20,17 @@ body{
    
 }
 
+p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.description{
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.5);
+   
+}
+
 .btn{
     background-color: #E6533C;
     border-radius: 42px;
@@ -32,7 +43,10 @@ body{
     margin-right: 10px;
 }
 
-
+.flex{
+    display: flex;
+    gap: 12px;
+}
 
 /* header styles */
 header{
@@ -117,8 +131,7 @@ h1{
 }
 
 .header-content p{
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.5);
+    
     margin: 1.4rem 0;
 }
 
@@ -126,4 +139,46 @@ h1{
     background-color: transparent;
     border: 1px solid #ffffffdb;
 }
+
+.content{
+    max-width: 200px;
+    background-color: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(40px);
+    padding: 14px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.054);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-image{
+    position: relative;
+}
+.content-1{
+    position: absolute;
+    top: 120px;
+    right: -30px;
+    
+}
+
+.content-2{
+    position: absolute;
+    bottom: 70px;
+    left: -90px;
+}
+
+.content p{
+    margin-top: 6px;
+}
+
+.red-ball{
+    height: 30px;
+    width: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+
+
+
 
