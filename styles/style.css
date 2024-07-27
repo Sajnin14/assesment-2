@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:wght@100..900&family=Monsieur+La+Doulaise&display=swap');
+
+
+
+
+
 *{  
     margin: 0;
     padding: 0;
@@ -11,17 +17,34 @@ body{
     margin: 0 auto;
     background-color: #000;
     color: #fff;
-    padding: 0 190px;
    
 }
 
+.btn{
+    background-color: #E6533C;
+    border-radius: 42px;
+    padding: 10px 40px;
+    color: #fff;
+    border: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+
 
 /* header styles */
+header{
+    background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(22, 22, 22, 0.955), rgba(119, 119, 119, 0));
+}
 
 .nav-container{
     display: flex;
     justify-content: space-between;
-    padding-top: 57px;
+    gap: 40px; 
+    padding: 0 190px;
+    margin-top: 57px;
 }
 
 .brand-name{
@@ -67,3 +90,40 @@ body{
     height: 24px;
     display: none;
 }
+
+.header-container{
+    display: flex;
+    margin-top: 30px;
+    gap: 120px;
+    padding: 0 190px;
+}
+
+.header-content{
+    padding: 90px 78px 74px 0;
+}
+
+h1{
+    font-size: 4.1rem;
+    line-height: 1;
+}
+
+
+
+.shape{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 300;
+    font-size: 4.9rem;
+    letter-spacing: 4px;
+}
+
+.header-content p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1.4rem 0;
+}
+
+.btn-download{
+    background-color: transparent;
+    border: 1px solid #ffffffdb;
+}
+
