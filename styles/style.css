@@ -40,7 +40,7 @@ p{
     font-size: 1rem;
     font-weight: 400;
     text-transform: capitalize;
-    margin-right: 10px;
+    margin: 4px 10px 10px 0;
 }
 
 .flex{
@@ -50,15 +50,16 @@ p{
 
 /* header styles */
 header{
+    width: 100%;
     background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(22, 22, 22, 0.955), rgba(119, 119, 119, 0));
 }
 
 .nav-container{
     display: flex;
-    justify-content: space-between;
-    gap: 40px; 
+    justify-content: space-between; 
+    gap: 80px; 
     padding: 0 190px;
-    margin-top: 57px;
+    padding-top: 57px;
 }
 
 .brand-name{
@@ -157,15 +158,15 @@ h1{
 }
 .content-1{
     position: absolute;
-    top: 120px;
-    right: -30px;
+    top: 22%;
+    right: -10%;
     
 }
 
 .content-2{
     position: absolute;
-    bottom: 70px;
-    left: -90px;
+    bottom: 12%;
+    left: -28%;
 }
 
 .content p{

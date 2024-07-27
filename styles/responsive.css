@@ -2,9 +2,12 @@
 
 @media screen and (max-width: 576px) {
 
-    body{
+    body .nav-container .header-container .header-content{
+        
+        margin: 30px auto;
+        padding: 0 10px;
         width: 100%;
-        padding: 0 30px;
+        
     }
     .nav-icon{
         display: block;
@@ -12,5 +15,9 @@
 
     .nav-lists{
         display: none;
+    }
+
+    .header-container{
+        flex-direction: column;
     }
 }
