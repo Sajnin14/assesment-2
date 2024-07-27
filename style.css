@@ -3,6 +3,67 @@
 *{  
     margin: 0;
     padding: 0;
-    max-width: 1440px;
     font-family: "Inter", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    margin: 30px auto;
+    background-color: #000;
+    color: #fff;
+    padding: 0 190px;
+   
+}
+
+
+/* header styles */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+}
+
+.brand-name{
+    font-size: 2rem;
+    color: #E6533C;
+    font-weight: 900;
+    font-style: italic;
+}
+.nav-lists{
+    display: flex;
+    gap: 47px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 37px;
+    padding: 2px 20px 2px 2px;
+}
+
+.nav-list{
+    list-style: none;
+   
+}
+.nav-list:first-child{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 44px;
+    border: none;
+   
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon{
+    width: 24px;
+    height: 24px;
+    display: none;
 }
