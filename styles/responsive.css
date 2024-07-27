@@ -1,0 +1,16 @@
+/* responsive for mobile device */
+
+@media screen and (max-width: 576px) {
+
+    body{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .nav-icon{
+        display: block;
+    }
+
+    .nav-lists{
+        display: none;
+    }
+}
