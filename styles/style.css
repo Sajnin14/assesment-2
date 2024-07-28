@@ -22,24 +22,28 @@ body{
 
 /* ***********reusable styles******* */
 
+h1{
+    font-size: 4.1rem;
+    line-height: 1;
+}
 
 h2{
     font-size: 2.4rem;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: capitalize;
     margin-bottom: 14px;
     
 }
 p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
 }
 
 .description{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.4px;
-    line-height: 1.4;
+    line-height: 1.8;
    
 }
 
@@ -52,12 +56,19 @@ p{
     font-size: 1rem;
     font-weight: 400;
     text-transform: capitalize;
-    margin: 4px 10px 10px 0;
+    margin: 28px 10px 10px 0;
 }
 
 .flex{
     display: flex;
     gap: 12px;
+}
+
+.change-habit-section,
+.run-container{
+    max-width: 1000px;
+    margin: 90px auto;
+    
 }
 
 /* header styles */
@@ -130,12 +141,6 @@ header{
     padding: 90px 78px 74px 0;
 }
 
-h1{
-    font-size: 4.1rem;
-    line-height: 1;
-}
-
-
 
 .shape{
     font-family: "Monsieur La Doulaise", cursive;
@@ -144,10 +149,10 @@ h1{
     letter-spacing: 4px;
 }
 
-.header-content p{
+/* .header-content p{
     
     margin: 1.4rem 0;
-}
+} */
 
 .btn-download{
     background-color: transparent;
@@ -196,11 +201,6 @@ h1{
 
 /* change habit section */
 
-.change-habit-section{
-    max-width: 1000px;
-    margin: 90px auto;
-    
-}
 .change-habit-header{
     padding: 0 280px;
     text-align: center;
@@ -240,4 +240,33 @@ h1{
     text-align: center;
 }
 
+/* *************
+    running extra styles
+    **************** */
 
+   .run-container{
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    display: flex;
+    gap: 110px;
+   } 
+
+   .run-content{
+    padding: 50px;
+   }
+
+   .run-image{
+    padding: 30px;  
+    max-width: 340px;
+   }
+
+   .run-img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: 100% 100%;
+    border-radius: 18px;
+    /* width: 300px;
+    height: 300px; */
+    
+   }
