@@ -32,6 +32,12 @@
         margin-top: 0;
     }
 
+    .btn-class{
+        /* margin-bottom: 2px; */
+        display: flex;
+        flex-direction: column;
+    }
+
 
     /* change habit responsive */
     .change-habit-container{
@@ -40,4 +46,18 @@
         padding: 10px 10px;
         margin-top: 20px; 
         }
+
+    /* run ektra mile responsive */
+
+    .run-container{
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        margin: 30px;
+    }
+    .run-content,
+    .run-image{
+        padding: 20px;
+       }
+
     }
