@@ -270,3 +270,14 @@ header{
     height: 300px; */
     
    }
+
+
+   /* *********************
+          bmi calculator styles
+    ***************************** */
+
+    .bmi-calculator{
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
