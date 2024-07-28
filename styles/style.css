@@ -20,6 +20,16 @@ body{
    
 }
 
+/* ***********reusable styles******* */
+
+
+h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+    
+}
 p{
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
@@ -28,6 +38,7 @@ p{
 .description{
     font-size: 0.6rem;
     color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.4px;
    
 }
 
@@ -49,6 +60,7 @@ p{
 }
 
 /* header styles */
+
 header{
     width: 100%;
     background-image: linear-gradient(rgba(17, 17, 17, 1), rgba(22, 22, 22, 0.955), rgba(119, 119, 119, 0));
@@ -181,5 +193,44 @@ h1{
 }
 
 
+/* change habit section */
+
+.change-habit-section{
+    max-width: 1000px;
+    margin: 90px auto;
+    
+}
+.change-habit-header{
+    /* max-width: 400px; */
+    text-align: center;
+    
+}
+
+.change-habit-container{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 20px;
+    margin-top: 58px;
+}
+
+.habit-title{
+    font-size: 1rem;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.change-habit-img{
+    padding: 0 20px;
+    margin-bottom: 28px;
+}
+
+.habit-img{
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;  
+}
+
+.habit-content{
+    text-align: center;
+}
 
 
