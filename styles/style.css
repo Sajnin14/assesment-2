@@ -39,6 +39,7 @@ p{
     font-size: 0.6rem;
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.4px;
+    line-height: 1.4;
    
 }
 
@@ -201,17 +202,23 @@ h1{
     
 }
 .change-habit-header{
-    /* max-width: 400px; */
+    padding: 0 280px;
     text-align: center;
     
 }
 
 .change-habit-container{
-    display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    width: 24%;
+    margin: 0 auto;
     margin-top: 58px;
+    text-align: center;
+    justify-content: center;
 }
+
+
 
 .habit-title{
     font-size: 1rem;
