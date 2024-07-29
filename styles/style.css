@@ -318,10 +318,6 @@ header{
         padding: 10px 20px;
     }
 
-    .calculator-form{
-
-    }
-
     .form-1{
         max-width: 520px;
         display: grid;
@@ -369,8 +365,6 @@ header{
     .div-5{
         position: relative;
         margin-top: 12px;
-        
-       
     }
 
     .div-5 input{
