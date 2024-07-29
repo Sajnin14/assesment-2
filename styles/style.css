@@ -275,9 +275,131 @@ header{
    /* *********************
           bmi calculator styles
     ***************************** */
+    
+    .calculator-title{
+         font-size: 1.4rem;
+         /* padding-top: 48px; */
+    }
 
+
+    .calculator-content{
+        background-color: #222222;
+        display: flex;
+        gap: 100px;
+        justify-content: space-around;
+        padding: 53px 190px;
+    }
     .bmi-calculator{
         max-width: 600px;
         margin: 0 auto;
         margin-bottom: 80px;
     }
+
+    .table{
+        border-collapse: collapse;
+        margin-top: 40px;
+    }
+
+    th{
+        font-size: 0.9rem;
+        font-weight: 500;
+        padding: 16px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: left;
+        
+    }
+
+    td{
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 10px 20px;
+    }
+
+    .calculator-form{
+        max-width: 520px;
+    }
+
+    .form-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 12px;
+    }
+    
+
+    input{
+        font-size: 0.9rem;
+        padding: 12px 34px 12px 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+        
+    }
+    
+
+    form .btn-icon{
+        position: relative; 
+        /* transform: translate(0, 0);  */
+    }
+
+    .icon-parent{
+        padding: 12px 0 12px 20px;
+        border-radius: 8px 0 0 8px;
+        
+    }
+
+    .calculator-icon{
+        position: absolute;
+        padding: 12px 14px 12px 8px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 0 8px 8px 0;
+        border: none;
+        color: #fff;
+        
+        
+    }
+
+    .form-2{
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        max-width: 520px;
+    }
+
+    .div-5{
+        position: relative;
+        margin-top: 12px;
+        
+       
+    }
+
+    .div-5 input{
+        display: inline-block;
+        width: 90%;
+       
+        font-size: 0.9rem;
+        padding: 12px 0 12px 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px 0 0 8px;
+        border: none;
+    }
+
+    .span-icon{
+        position: absolute;
+        padding: 12px 14px 12px 2px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 0 8px 8px 0;
+        border: none;
+        color: #fff;
+        
+    }
+
+    .form-description{
+        margin: 10px 0 28px 0;
+    }
+
+    
