@@ -325,7 +325,7 @@ header{
     .form-1{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 12px;
+        gap: 12px;
     }
     
 
