@@ -282,7 +282,7 @@ header{
     .calculator-content{
         background-color: #222222;
         display: flex;
-        gap: 100px;
+        gap: 140px;
         justify-content: space-around;
         padding: 53px 190px;
     }
@@ -319,10 +319,11 @@ header{
     }
 
     .calculator-form{
-        max-width: 520px;
+
     }
 
     .form-1{
+        max-width: 520px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 12px;
@@ -358,9 +359,7 @@ header{
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 0 8px 8px 0;
         border: none;
-        color: #fff;
-        
-        
+        color: #fff;  
     }
 
     .form-2{
@@ -376,8 +375,7 @@ header{
 
     .div-5 input{
         display: inline-block;
-        width: 88%;
-       
+        width: 90%;
         font-size: 0.9rem;
         padding: 12px 0 12px 20px;
         background-color: rgba(255, 255, 255, 0.1);
