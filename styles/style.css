@@ -276,7 +276,11 @@ header{
           bmi calculator styles
     ***************************** */
     
-    
+    .bmi-calculator{
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
 
 
     .calculator-content{
@@ -287,11 +291,7 @@ header{
         padding: 53px 190px;
     }
 
-    .bmi-calculator{
-        max-width: 600px;
-        margin: 0 auto;
-        margin-bottom: 80px;
-    }
+    
 
     .calculator-title{
         font-size: 1.4rem;
@@ -324,6 +324,10 @@ header{
         grid-template-columns: 1fr 1fr;
         gap: 12px;
     }
+
+    .calculator-form-content, .form-2{
+        max-width: 520px;
+    }
     
     input{
         font-size: 0.9rem;
@@ -355,10 +359,6 @@ header{
         border-radius: 0 8px 8px 0;
         border: none;
         color: #fff;  
-    }
-
-    .form-2{
-        max-width: 520px;
     }
 
     .div-5{
