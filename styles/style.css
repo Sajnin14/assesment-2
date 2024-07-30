@@ -437,6 +437,58 @@ header{
     }
 
 
+    /* ******************
+          footer section styles
+    ****************************** */
+     footer{
+        background-color: rgba(255, 255, 255, 0.1);
+     }
+
+     .footer-container{
+        padding: 57px 190px;
+        /* padding-top: ; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 102px;
+     }
+
+     .footer-1{
+        max-width: 400px;
+        padding-right: 4px;
+     }
+
+    .footer-1-title{
+        font-size: 3.4rem;
+        font-weight: 900;
+        font-style: italic;
+        color: #E6533C;
+        margin-bottom: 20px;
+    }
+
+    .footer-2{
+         display: flex;
+         gap: 148px;
+    }
+
+    .get-started-title{
+        font-size: 1.34rem;
+        font-weight: 600;
+        margin-bottom: 28px;
+    }
+
+    .started-link{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.03rem;
+        font-weight: 300;
+    }
+
+    .get-started ul li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+
 
     
 
