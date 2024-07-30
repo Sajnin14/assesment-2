@@ -325,7 +325,6 @@ header{
         gap: 12px;
     }
     
-
     input{
         font-size: 0.9rem;
         padding: 12px 34px 12px 20px;
@@ -333,8 +332,8 @@ header{
         border-radius: 8px;
         border: none;
         color: #fff;
-        
-    }
+       
+    }  
     
 
     form .btn-icon{
@@ -393,4 +392,11 @@ header{
         margin: 10px 0 28px 0;
     }
 
+
+
+    
+
+    
+
+   
     
