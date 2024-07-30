@@ -73,14 +73,4 @@
         grid-template-columns: 1fr;
     }
     
-
-    /* experimental bmi responsive */
-    
-    .bmi-content{
-        padding: 2rem 2rem;
-        flex-direction: column;
-        gap: 20px;
-        width: 100%;
-        /* margin: 30px;  */
-    }
 }
