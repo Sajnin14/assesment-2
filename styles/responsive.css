@@ -6,7 +6,8 @@
     .header-container,
     .change-habit-header,
     .calculator-content,
-    .bmi-calculator{
+    .bmi-calculator,
+    .team-container{
         /* width: 100%; */
         /* width: fit-content; */
         padding: 2rem 2rem;   
@@ -73,4 +74,10 @@
         grid-template-columns: 1fr;
     }
     
+
+    /* responsive for our team */
+
+    .team-content{
+        grid-template-columns: 1fr;
+    }
 }
