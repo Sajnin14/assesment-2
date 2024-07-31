@@ -507,6 +507,63 @@ header{
     }
 
 
+    /* *************************
+           challenge styles
+    ********************************* */
+     
+
+    .challenge-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .feature-list{
+        padding: 12px;
+    }
+
+    .feature-ititle{
+        font-size: 1.34rem;
+        font-weight: 600;
+        margin: 14px 0;
+    }
+
+    .feature-list li{
+        list-style: none;
+        margin-bottom: 12px;
+        font-size: 1rem;
+    }
+
+    .list-icon{
+        margin-right: 8px;
+        color: #E6533C;
+        font-size: 1.3rem;
+
+    }
+
+    .feature-img-title{
+
+        font-size: 1.12rem;
+        font-weight: 600;
+        margin: 14px 0;
+    }
+
+    .feature-image{
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+
+    }
+
+    .feature-image img{
+        width:90%;
+        padding: 20px;
+        border-radius: 18px;
+        opacity: 0.7;
+    }
+
+    .top-img{
+        
+    }
+
+
 
     
 
