@@ -536,15 +536,17 @@ header{
     }
 
     .feature-ititle{
-        font-size: 1.34rem;
+        font-size: 1.24rem;
         font-weight: 600;
         margin: 14px 0;
+        color: rgba(255, 255, 255, 0.818);
     }
 
     .feature-list li{
         list-style: none;
         margin-bottom: 12px;
         font-size: 1rem;
+        color: rgba(255, 255, 255, 0.614);
     }
 
     .list-icon{
