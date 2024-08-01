@@ -523,6 +523,14 @@ header{
         grid-template-columns: 1fr 1fr;
         gap: 100px;
     }
+
+    .gym-features{
+        padding: 14px;
+        border-radius: 18px;
+        box-shadow: 0 0 80px 0 #1e1e1d;
+    }
+
+    /* rgba(255, 255, 255, 0.043); */
     .feature-list{
         padding: 12px;
     }
@@ -546,13 +554,7 @@ header{
 
     }
 
-    .feature-img-title{
-
-        font-size: 1.12rem;
-        font-weight: 600;
-        margin: 14px 0;
-    }
-
+    
 
     .feature-image{
         background-color: rgba(255, 255, 255, 0.1);
@@ -571,11 +573,7 @@ header{
         height: 100%;
         border-radius: 18px;
     }
-
-    .bottom-img{
-        
-    }
-
+     
     .top-img{
         position: absolute;
         top: 0;
@@ -587,6 +585,15 @@ header{
     .top-img:hover{
         opacity: 0 !important;
     }
+
+    .feature-img-title{
+        color: #545252;
+        font-size: 1.12rem;
+        font-weight: 600;
+        margin-top: 18px;
+        font-style: italic;
+    }
+
 
 
 
