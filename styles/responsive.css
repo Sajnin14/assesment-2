@@ -78,10 +78,31 @@
     
 
     /* responsive for our team */
+    .team-img-1, .team-img-4{
+        display: none;
+    }
 
+    .team-img-2{
+        grid: img-1;
+    }
+
+    .team-img-3{
+        grid-area: img-3;
+    }
+    .team-img-5{
+        grid-area: img-2;
+    }
+    .team-img-6{
+        grid-area: img-4;
+    }
     .team-content{
+        /* grid-template-columns: 1fr; */
+        grid-template-areas: "img-1"
+                             "img-2"
+                             "img-3"
+                             "img-4";
+      
         grid-template-columns: 1fr;
-       
     }
 
     /* responsive footer */
