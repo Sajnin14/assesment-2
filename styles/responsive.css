@@ -11,7 +11,8 @@
     .challenge-container{
         /* width: 100%; */
         /* width: fit-content; */
-        padding: 2rem 2rem;   
+        padding: 2rem 2rem;  
+        margin: 0 auto; 
     }
 
     .header-content{

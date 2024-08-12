@@ -13,7 +13,8 @@
 }
 
 body{
-    max-width: 1440px;
+    width: 100%;
+    /* max-width: 1440px; */
     margin: 0 auto;
     background-color: #000;
     color: #fff;
@@ -63,7 +64,7 @@ p{
 
 .flex{
     display: flex;
-    gap: 12px;
+    gap: 8px;
 }
 
 .change-habit-section,
@@ -164,10 +165,8 @@ header{
 }
 
 .content{
-    max-width: 200px;
     background-color: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(40px);
-    padding: 14px 30px;
     border: 1px solid rgba(255, 255, 255, 0.054);
     border-radius: 12px;
     align-items: center;
@@ -180,24 +179,26 @@ header{
 }
 
 .content-1{
+    max-width: 180px;
+    padding: 10px 20px;
     position: absolute;
-    /* top: 270px;
-    right: 120px; */
-    top: 45%;
-    right: 9%;
+    top: 140px;
+    right: -40px;
 }
 
 .content-2{
-    max-width: 140px;
-    padding: 12px 20px;
+    max-width: 120px;
+    padding: 14px 20px;
     position: absolute;
-    bottom: -1%;
-    left: 53%;
+    bottom: 70px;
+    left: -65px;
+
     
 }
 
 .content p{
-    margin-top: 6px;
+    /* margin-top: 4px; */
+    font-size: 0.7rem;
 }
 
 .red-ball{
