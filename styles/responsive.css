@@ -1,7 +1,10 @@
 /* responsive for mobile device */
 
 @media screen and (max-width: 576px) {
-
+    body{
+        width:100%;
+        margin: 0 auto;
+    }
     .nav-container,
     .header-container,
     .change-habit-header,
