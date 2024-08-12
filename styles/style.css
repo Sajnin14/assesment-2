@@ -178,17 +178,22 @@ header{
 .header-image{
     position: relative;
 }
+
 .content-1{
     position: absolute;
-    top: 22%;
-    right: -10%;
-    
+    /* top: 270px;
+    right: 120px; */
+    top: 45%;
+    right: 9%;
 }
 
 .content-2{
+    max-width: 140px;
+    padding: 12px 20px;
     position: absolute;
-    bottom: 12%;
-    left: -28%;
+    bottom: -1%;
+    left: 53%;
+    
 }
 
 .content p{
@@ -259,20 +264,22 @@ header{
     padding: 50px;
    }
 
-   .run-image{
-    padding: 30px;  
+   .run-image{  
     max-width: 340px;
+    overflow: hidden;
+    margin: 24px;
+    border-radius: 18px;
+    
    }
 
    .run-img{
     width: 100%;
     height: 100%;
     object-fit:cover;
-    object-position: 100% 100%;
-    border-radius: 18px;
+    /* object-position: 100% 100%; */
     /* width: 300px;
     height: 300px; */
-    
+    transform: scale(2.8) translate(-58px, 12%);
    }
 
 
