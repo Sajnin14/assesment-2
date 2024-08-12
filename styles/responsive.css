@@ -19,9 +19,11 @@
         padding: 40px 40px 30px 0;
     }
 
-    /* .header-image{
-        margin-left: 20px;
-    }  I can give it later, if necessary!!!!*/
+    .header-image{
+        margin-left: 30px;
+    } 
+     /* I can give it later, if necessary!!!! */
+
 
     .nav-icon{
         display: block;
