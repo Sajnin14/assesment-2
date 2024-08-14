@@ -26,7 +26,7 @@ body{
 h1{
     font-size: 4.1rem;
     line-height: 1;
-    margin-bottom: 18px;
+    margin-bottom: 28px;
 }
 
 h2{
@@ -39,6 +39,8 @@ h2{
 p{
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.5px;
+    line-height: 1.4;
 }
 
 .description{
@@ -137,7 +139,7 @@ header{
 .header-container{
     display: flex;
     margin-top: 30px;
-    gap: 120px;
+    gap: 80px;
     padding: 0 190px;
 }
 
@@ -295,6 +297,7 @@ header{
 
 
     .calculator-content{
+        width: 100%;
         background-color: #222222;
         display: flex;
         gap: 140px;
