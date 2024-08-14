@@ -543,6 +543,12 @@ header{
         padding: 14px;
         border-radius: 18px;
         box-shadow: 0 0 80px 0 #1e1e1d;
+        transition: all 0.7s linear 0.3s;
+    }
+
+    .gym-features:hover{
+        transform: translate(-4px,-4px) scale(1.1);
+        box-shadow: 0 0 10px #eb9b8d;
     }
 
     /* rgba(255, 255, 255, 0.043); */
