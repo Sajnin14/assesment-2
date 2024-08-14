@@ -73,10 +73,12 @@
     /* responsive for calculator */
     
     .calculator-content{
+        width: 100%;
         flex-direction: column;
+        gap: 44px;
     }
     .form-1{
-        grid-template-columns: 1fr;
+        column-gap: 28px;
     }
     
 
