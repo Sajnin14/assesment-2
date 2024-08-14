@@ -279,8 +279,6 @@ header{
     height: 100%;
     object-fit:cover;
     /* object-position: 100% 100%; */
-    /* width: 300px;
-    height: 300px; */
     transform: scale(2.8) translate(-58px, 12%);
    }
 
@@ -297,7 +295,6 @@ header{
 
 
     .calculator-content{
-        width: 100%;
         background-color: #222222;
         display: flex;
         gap: 140px;
@@ -461,6 +458,7 @@ header{
           footer section styles
     ****************************** */
      footer{
+        width: 100%;
         background-color: rgba(255, 255, 255, 0.1);
      }
 

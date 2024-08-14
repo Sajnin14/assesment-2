@@ -9,10 +9,12 @@
     .bmi-calculator,
     .team-container,
     .footer-container,
-    .challenge-container{
+    .challenge-container,
+    footer{
         padding: 2rem 2rem;  
         margin: 0 auto; 
     }
+
 
 
    /* resposive for header */
@@ -80,6 +82,7 @@
     /* responsive for calculator */
     
     .calculator-content{
+        width: 100%;
         flex-direction: column;
         gap: 44px;
     }
