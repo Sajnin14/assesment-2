@@ -83,6 +83,10 @@
     
 
     /* responsive for our team */
+
+    .team-container{
+        margin: 30px 10px;
+    }
     .team-img-1, .team-img-4{
         display: none;
     }
